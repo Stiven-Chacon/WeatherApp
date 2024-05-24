@@ -89,12 +89,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/Chart.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "45f66f8f-85f1-4295-b68e-6cb0a6d70024"
   }
 }
